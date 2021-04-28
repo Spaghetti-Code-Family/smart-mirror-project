@@ -30,7 +30,7 @@ var config = {
 	language: "en",
 	locale: "en-US",
 	logLevel: ["INFO", "LOG", "WARN", "ERROR"], // Add "DEBUG" for even more logging
-	timeFormat: 24,
+	timeFormat: 12,
 	units: "metric",
 	// serverOnly:  true/false/"local" ,
 	// local for armv6l processors, default
@@ -49,8 +49,6 @@ var config = {
 		{
 			module: "clock",
 			position: "top_left",
-			timeFormat: 12,
-			
 		},
 		{
 			module: "calendar",
@@ -119,38 +117,38 @@ var config = {
 						title: "Morning Mix - Washington Post",
 						url: "http://feeds.washingtonpost.com/rss/rss_morning-mix?itid=lk_inline_manual_41"
 					},
-					{
-						title: "IGN",
-						url: "http://feeds.ign.com/ign/games-all"
-					},
-					{
-						title: "Nintendo Life",
-						url: "http://www.nintendolife.com/feeds/latest"
-					},
-					{
-						title: "Game Informer",
-						url: "http://www.gameinformer.com/feeds/thefeedrss.aspx"
-					},
-					{
-						title: "Polygon",
-						url: "https://www.polygon.com/rss/index.xml"
-					},
-					{
-						title: "Roblox Blog",
-						url: "https://blog.roblox.com/feed/"
-					},
-					{
-						title: "Official Playstation Blog",
-						url: "https://blog.us.playstation.com/feed/"
-					},
-					{
-						title: "Kotaku",
-						url: "https://kotaku.com/rss"
-					},
-					{
-						title: "Destructoid",
-						url: "https://feeds.feedburner.com/Destructoid-Rss"
-					},
+					// {
+					// 	title: "IGN",
+					// 	url: "http://feeds.ign.com/ign/games-all"
+					// },
+					// {
+					// 	title: "Nintendo Life",
+					// 	url: "http://www.nintendolife.com/feeds/latest"
+					// },
+					// {
+					// 	title: "Game Informer",
+					// 	url: "http://www.gameinformer.com/feeds/thefeedrss.aspx"
+					// },
+					// {
+					// 	title: "Polygon",
+					// 	url: "https://www.polygon.com/rss/index.xml"
+					// },
+					// {
+					// 	title: "Roblox Blog",
+					// 	url: "https://blog.roblox.com/feed/"
+					// },
+					// {
+					// 	title: "Official Playstation Blog",
+					// 	url: "https://blog.us.playstation.com/feed/"
+					// },
+					// {
+					// 	title: "Kotaku",
+					// 	url: "https://kotaku.com/rss"
+					// },
+					// {
+					// 	title: "Destructoid",
+					// 	url: "https://feeds.feedburner.com/Destructoid-Rss"
+					// },
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
