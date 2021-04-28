@@ -49,6 +49,8 @@ var config = {
 		{
 			module: "clock",
 			position: "top_left",
+			timeFormat: 12,
+			
 		},
 		{
 			module: "calendar",
