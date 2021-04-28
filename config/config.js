@@ -52,13 +52,13 @@ var config = {
 		},
 		{
 			module: "calendar",
-			header: "US Holidays",
+			header: "Kang Family Events",
 			position: "top_left",
 			config: {
 				calendars: [
 					{
 						symbol: "calendar-check",
-						url: "webcal://www.calendarlabs.com/ical-calendar/ics/76/US_Holidays.ics"					}
+						url: "https://calendar.google.com/calendar/ical/taylor.hani.kang%40gmail.com/public/basic.ics"					}
 				]
 			}
 		},
