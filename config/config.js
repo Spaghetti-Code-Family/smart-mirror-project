@@ -48,7 +48,7 @@ var config = {
 		},
 		{
 			module: "clock",
-			position: "top_left"
+			position: "top_left",
 		},
 		{
 			module: "calendar",
@@ -98,9 +98,57 @@ var config = {
 			config: {
 				feeds: [
 					{
-						title: "New York Times",
-						url: "https://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
+						title: "Weird News - HuffPost",
+						url: "https://chaski.huffpost.com/us/auto/vertical/weird-news"
+					},
+					{
+						title: "Tech - Reuters",
+						url: "https://www.reutersagency.com/feed/?best-topics=tech&post_type=best"
+					},
+					{
+						title: "North America - Reuters",
+						url: "https://www.reutersagency.com/feed/?best-regions=north-america&post_type=best"
+					},
+					{
+						title:"Asia - Reuters",
+						url: "https://www.reutersagency.com/feed/?best-regions=asia&post_type=best"
+					},
+					{
+						title: "Morning Mix - Washington Post",
+						url: "http://feeds.washingtonpost.com/rss/rss_morning-mix?itid=lk_inline_manual_41"
+					},
+					{
+						title: "IGN",
+						url: "http://feeds.ign.com/ign/games-all"
+					},
+					{
+						title: "Nintendo Life",
+						url: "http://www.nintendolife.com/feeds/latest"
+					},
+					{
+						title: "Game Informer",
+						url: "http://www.gameinformer.com/feeds/thefeedrss.aspx"
+					},
+					{
+						title: "Polygon",
+						url: "https://www.polygon.com/rss/index.xml"
+					},
+					{
+						title: "Roblox Blog",
+						url: "https://blog.roblox.com/feed/"
+					},
+					{
+						title: "Official Playstation Blog",
+						url: "https://blog.us.playstation.com/feed/"
+					},
+					{
+						title: "Kotaku",
+						url: "https://kotaku.com/rss"
+					},
+					{
+						title: "Destructoid",
+						url: "https://feeds.feedburner.com/Destructoid-Rss"
+					},
 				],
 				showSourceTitle: true,
 				showPublishDate: true,
