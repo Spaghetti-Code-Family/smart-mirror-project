@@ -93,6 +93,22 @@ var config = {
 			}
 		},
 		{
+            module: "MMM-DailyPokemon",
+            position: "top_center",
+            config: {
+                updateInterval: 600000,
+                minPoke: 4,
+                maxPoke: 151,
+                grayscale: false,
+                showType: true,
+                language: "en",
+                genera: true,
+                gbaMode: true,
+                nameSize: 26,
+                flavorText: false
+            }
+        },
+		{
 			module: "newsfeed",
 			position: "bottom_bar",
 			config: {
