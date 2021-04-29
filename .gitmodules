@@ -1,0 +1,3 @@
+[submodule "modules/MM-DailyPokemon"]
+	path = modules/MM-DailyPokemon
+	url = https://github.com/Spaghetti-Code-Family/MM-DailyPokemon.git
